@@ -72,15 +72,15 @@ public class LogonViewController implements Initializable {
     @FXML
     private void handleGuestC2Button() throws IOException {
         // id = 24
-        /*handleLogIn("tester2", "123");
-        controller.setReceiver(25L);*/
+        handleLogIn("a@mail.ru", "123");
+        //controller.setReceiver(25L);
     }
 
     @FXML
     private void handleGuestC3Button() throws IOException {
         //id = 25
-        /*handleLogIn("tester3", "123");
-        controller.setReceiver(24L);*/
+        handleLogIn("b@mail.ru", "$2a$10$Mf5bLkd7g57VnYWWUeMzXefzeoMprHRDGtytJ0JGgMmgW6refwFEO");
+        //controller.setReceiver(24L);
     }
 
     @FXML
